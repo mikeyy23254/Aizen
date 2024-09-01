@@ -1,0 +1,32 @@
+user:
+  name: ishikki
+  github: ishikki-akabane
+
+python_version: "3.10"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - "nano inxi"
+  start:
+    - "python3 app.py"
+
+env:
+  - "ENVIRONMENT=production"
+user:
+  name: ishikki
+  github: ishikki-akabane
+
+python_version: "3.10"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - "nano inxi"
+  start:
+    - "python3 app.py"
+
+env:
+  - "ENVIRONMENT=production"
